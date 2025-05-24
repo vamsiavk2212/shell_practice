@@ -7,7 +7,7 @@ Y="\e[33m"
 N="\e[0m"
 LOGS_FOLDER="/var/log/shellscript-logs"
 SCRIPT_NAME=$(echo $0 | cut -d "." -f1 )
-LOG_FILE="$LOGS_FOLDER/$SCRIPT_NAME.log
+LOG_FILE="$LOGS_FOLDER/$SCRIPT_NAME.log"
 PACKAGES=("mysql" "python" "nginx" "httpd")
 
 mkdir -p $LOGS_FOLDER
